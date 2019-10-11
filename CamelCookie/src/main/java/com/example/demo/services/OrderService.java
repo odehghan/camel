@@ -64,13 +64,4 @@ public class OrderService {
     }
 
 
-    // This method will be invoked for a POST request to /orders
-    public String createOrder(Order order){
-
-        return "The productName is "+ order.getProductName() +
-                " and product Id is "+order.getId()+
-                " and value of the product is "+order.getPrice() + " the value of boolean is"+ order.getBool();
-    }
-
-
 }
