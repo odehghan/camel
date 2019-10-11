@@ -17,7 +17,7 @@
         <repository>
             <id>my-repo1</id>
             <name>your custom repo</name>
-            <url>https://mvnrepository.com/artifact/org.apache.camel/camel-jetty-starter </url>
+            <url>https://mvnrepository.com/artifact/org.apache.camel/camel-restlet-starter </url>
         </repository>
 
     </repositories>
@@ -62,7 +62,7 @@
         <!-- https://mvnrepository.com/artifact/org.apache.camel/camel-undertow-starter -->
         <dependency>
             <groupId>org.apache.camel</groupId>
-            <artifactId>camel-jetty-starter</artifactId>
+            <artifactId>camel-restlet-starter</artifactId>
             <version>${camel-version}</version>
         </dependency>
 
