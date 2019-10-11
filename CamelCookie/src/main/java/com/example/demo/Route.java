@@ -20,9 +20,6 @@ public class Route extends RouteBuilder {
         rest("/orders")
 
                 .get("{id}").outType(Order.class)
-                .to("bean:orderService?method=getOrder")
-
-                .post().outType(Order.class)
-                .to("bean:orderService?method=createOrder");
+                .to("bean:orderService?method=getOrder");
     }
 }
