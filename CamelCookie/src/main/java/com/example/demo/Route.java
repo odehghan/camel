@@ -11,7 +11,7 @@ public class Route extends RouteBuilder {
     @Override
     public void configure() throws Exception {
 
-        restConfiguration().component("restlet").host("localhost").port(9090)
+        restConfiguration().component("jetty").host("localhost").port(9090)
                 .endpointProperty("cookieHandler","#exchangeCookieHandler")
                 .bindingMode(RestBindingMode.json)
                 .apiContextPath("/api-doc")
